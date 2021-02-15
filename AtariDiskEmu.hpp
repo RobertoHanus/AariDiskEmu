@@ -27,8 +27,8 @@ RPL_INCLUDE=
 SasmParams=
 LRFiles=
 [Files]
-file1=new.s
-file2=tests.s
-file3=imp.s
+file1=main.s
+file2=functions.s
 [Edit]
-edit4=>new.s
+edit3=>main.s
+edit4=functions.s

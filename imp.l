@@ -1,4 +1,4 @@
-Saturn Assembler                                       Sat Feb 13 21:13:08 2021
+Saturn Assembler                                       Sun Feb 14 20:57:51 2021
 V3.0.9 (04/15/2007)                                      imp.a          Page    1
 
     1               * File  imp.s   1
@@ -177,68 +177,34 @@ V3.0.9 (04/15/2007)                                      imp.a          Page    
   170               * File  imp.s   69
   171 001BD 00000           CON(5)  =DOCOL
   172               * File  imp.s   70
-  173 001C2 00000           CON(5)  =DOCSTR
-  174 001C7 30100           CON(5)  259
-  175 001CC 1323334         NIBASC  \12345678901234567890\
-            3536373
-            83930313233343536373839303
-
-  176 001F4 1323334         NIBASC  \12345678901234567890\
-            3536373
-            83930313233343536373839303
-
-  177 0021C 1323334         NIBASC  \12345678901234567890\
-            3536373
-            83930313233343536373839303
-
-  178 00244 1323334         NIBASC  \12345678901234567890\
-            3536373
-            83930313233343536373839303
-
-  179 0026C 1323334         NIBASC  \12345678901234567890\
-            3536373
-            83930313233343536373839303
-
-  180 00294 1323334         NIBASC  \12345678901234567890\
-            3536373
-            83930313233343536373839303
-
-  181 002BC 1323334         NIBASC  \1234567\
-            3536373
-  182               * File  imp.s   71
-  183 002CA 00000           CON(5)  =DOBINT
-  184 002CF 10000           CON(5)  #1
-  185               * File  imp.s   72
-  186
-  187               * File  imp.s   73
-  188 002D4 00000           CON(5)  =DOBINT
-  189 002D9 10000           CON(5)  #1
-  190               * File  imp.s   74
-  191 002DE 00000           CON(5)  =#-
-  192               * File  imp.s   75
-  193 002E3 00000           CON(5)  =DOBINT
-  194 002E8 08000           CON(5)  #80
-  195               * File  imp.s   76
-  196 002ED 00000           CON(5)  =#*
-  197               * File  imp.s   77
-  198 002F2 00000           CON(5)  =DUP
-  199               * File  imp.s   78
-  200 002F7 00000           CON(5)  =DOBINT
-  201 002FC F7000           CON(5)  #7F
-  202               * File  imp.s   79
-  203 00301 00000           CON(5)  =#+
-  204               * File  imp.s   80
-  205 00306 00000           CON(5)  =SUB$
-  206               * File  imp.s   81
-  207 0030B 00000           CON(5)  =SEMI
-Saturn Assembler                                       Sat Feb 13 21:13:08 2021
+  173 001C2 00000           CON(5)  =DOBINT
+  174 001C7 10000           CON(5)  #1
+  175               * File  imp.s   71
+  176 001CC 00000           CON(5)  =#=
+  177               * File  imp.s   72
+  178 001D1 00000           CON(5)  =IT
+  179               * File  imp.s   73
+  180 001D6 00000           CON(5)  =DOCOL
+  181               * File  imp.s   74
+  182 001DB 00000           CON(5)  =DOBINT
+  183 001E0 11000           CON(5)  #11
+  184               * File  imp.s   75
+  185 001E5 00000           CON(5)  =DOBINT
+  186 001EA 19000           CON(5)  #91
+  187               * File  imp.s   76
+  188 001EF 00000           CON(5)  =SUB$
+  189               * File  imp.s   77
+  190 001F4 00000           CON(5)  =SEMI
+  191               * File  imp.s   78
+  192 001F9 00000           CON(5)  =SEMI
+Saturn Assembler                                       Sun Feb 14 20:57:51 2021
 V3.0.9 (04/15/2007)   Symbol Table                       imp.a          Page    2
 
- #*                                Ext                   -   196
  #+                                Ext                   -    33    54    92
-                                         139   203
- #-                                Ext                   -    49   191
+                                         139
+ #-                                Ext                   -    49
  #<>                               Ext                   -    22
+ #=                                Ext                   -   176
  #>                                Ext                   -    40
  '                                 Ext                   -    83   130
  CAR$                              Ext                   -   101   148
@@ -246,25 +212,24 @@ V3.0.9 (04/15/2007)   Symbol Table                       imp.a          Page    
  CHR>#                             Ext                   -   150
  DO                                Ext                   -    31    97   144
  DOBINT                            Ext                   -    20    28    37
-                                          46    51    90    94   137   141   183
-                                         188   193   200
+                                          46    51    90    94   137   141   173
+                                         182   185
  DOCOL                             Ext                   -    16    26    44
-                                          62    75   122   171
- DOCSTR                            Ext                   -   173
+                                          62    75   122   171   180
  DOIDNT                            Ext                   -    84   111   131
                                          160
  DROP                              Ext                   -    64   109   158
  DUP                               Ext                   -    18    35    77
-                                          81    99   124   128   146   198
- IT                                Ext                   -    42
+                                          81    99   124   128   146
+ IT                                Ext                   -    42   178
  ITE                               Ext                   -    24
  LEN$                              Ext                   -    79   126
  LOOP                              Ext                   -    58   107   156
 =RomId                             Abs     512 #00000200 -     6
  SEMI                              Ext                   -    56    60    66
-                                          68   115   164   207
+                                          68   115   164   190   192
  STO                               Ext                   -    88   135
- SUB$                              Ext                   -   205
+ SUB$                              Ext                   -   188
  SWAP                              Ext                   -   103   152
 =xGETSEC                           Rel     445 #000001BD -   169
 =xSCHKSUM                          Rel       6 #00000006 -    14
@@ -274,7 +239,7 @@ V3.0.9 (04/15/2007)   Symbol Table                       imp.a          Page    
  ~xSCHKSUM                         Ext                   -    13
  ~xSTR2BINT                        Ext                   -   119
  ~xSTR2CHRS                        Ext                   -    72
-Saturn Assembler                                       Sat Feb 13 21:13:08 2021
+Saturn Assembler                                       Sun Feb 14 20:57:51 2021
 V3.0.9 (04/15/2007)   Statistics                         imp.a          Page    3
 
 Input Parameters

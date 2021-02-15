@@ -31,6 +31,6 @@ file1=new.s
 file2=tests.s
 file3=imp.s
 [Edit]
-edit4=imp.s
-edit5=>new.s
+edit4=>new.s
+edit5=imp.s
 edit6=tests.s

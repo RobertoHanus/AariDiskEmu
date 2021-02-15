@@ -3,24 +3,24 @@ INCLUDE AtariDiskEmu.h
 xNAME tst
 ::
    % -33
-			SetSysFlag
+			ClrSysFlag
 			
 			% -78
-			ClrSysFlag
+			SetSysFlag
 			
 			% 19200
 			DOBAUD
 			
-		 #0
+		 %0
 			DOPARITY
 			
    DOBUFLEN DROP DOSRECV DROP DROP
-
-			BEGIN
+   BEGIN
 						%1 DOSRECV DROP
-						1
-					 SUB$1#
-					 ' ID Drive
+						
+						CAR$
+						CHR>#
+						' ID Drive
 					 STO
 					
 					 #31

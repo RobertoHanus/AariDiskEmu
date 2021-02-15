@@ -18,7 +18,16 @@ xNAME ok
 			
    DOBUFLEN DROP DOSRECV DROP DROP
    
+			#0
+			' ID Counter
+			STO
 BEGIN
+			ID Counter
+			#1
+			#+
+			' ID Counter
+			STO
+
 			BEGIN
 						%1 DOSRECV DROP
 						
@@ -52,39 +61,58 @@ BEGIN
 		 CHR>#
 			' ID SectorHigh
 			STO
-			
-			
-			
+				
 			
 		 #52
 		 ID Command
 		 #=
 			IT
 			::
-			ID SectorLow
-			ID SectorHigh
-			#100
-			#*
-			#+
+						"Command 52!!!" SWAP
+						
+						"A"
+			   DOXMIT_ DROP
+			   
+			   
+			
+						DUP
+						
+						"C" SWAP
+						
+						ID SectorLow
+						ID SectorHigh
+						#100
+						#*
+						#+
+						xGETSEC
+						
+						DOXMIT_ DROP
+				
 			;
+			
 			
 			#53
 			ID Command
 			#=
 			IT
 			::
-			   "AC"
+						"Command 53!!!" SWAP
+			
+			   "A"
+			   DOXMIT_ DROP
+			   
+			   "C"
 						#80 #>CHR CHR>$
 						#FF #>CHR CHR>$
 						#E0 #>CHR CHR>$
 						#00 #>CHR CHR>$
 						#61 #>CHR CHR>$
 						&$ &$ &$ &$ &$
-						DOXMIT_ DROP	
+			   DOXMIT_ DROP	
 			;
 		
-			#52
-			ID Command
+			ID Counter
+			#3
 			#=
 			UNTIL
 ;

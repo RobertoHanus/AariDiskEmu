@@ -1,4 +1,4 @@
-Saturn Assembler                                       Sat Feb 13 21:13:08 2021
+Saturn Assembler                                       Sun Feb 14 20:57:51 2021
 V3.0.9 (04/15/2007)                                      tests.a        Page    1
 
     1               * File  tests.s 1
@@ -24,7 +24,7 @@ V3.0.9 (04/15/2007)                                      tests.a        Page    
             00033
    21 0001F 9               NIBHEX  9
    22               * File  tests.s 6
-   23 00020 00000           CON(5)  =SetSysFlag
+   23 00020 00000           CON(5)  =ClrSysFlag
    24               * File  tests.s 7
    25
    26               * File  tests.s 8
@@ -34,7 +34,7 @@ V3.0.9 (04/15/2007)                                      tests.a        Page    
             00087
    30 00039 9               NIBHEX  9
    31               * File  tests.s 9
-   32 0003A 00000           CON(5)  =ClrSysFlag
+   32 0003A 00000           CON(5)  =SetSysFlag
    33               * File  tests.s 10
    34
    35               * File  tests.s 11
@@ -48,82 +48,82 @@ V3.0.9 (04/15/2007)                                      tests.a        Page    
    42               * File  tests.s 13
    43
    44               * File  tests.s 14
-   45 00059 00000           CON(5)  =DOBINT
-   46 0005E 00000           CON(5)  #0
-   47               * File  tests.s 15
-   48 00063 00000           CON(5)  =DOPARITY
-   49               * File  tests.s 16
-   50
-   51               * File  tests.s 17
-   52 00068 00000           CON(5)  =DOBUFLEN
-   53 0006D 00000           CON(5)  =DROP
-   54 00072 00000           CON(5)  =DOSRECV
+   45 00059 00000           CON(5)  =%0
+   46               * File  tests.s 15
+   47 0005E 00000           CON(5)  =DOPARITY
+   48               * File  tests.s 16
+   49
+   50               * File  tests.s 17
+   51 00063 00000           CON(5)  =DOBUFLEN
+   52 00068 00000           CON(5)  =DROP
+   53 0006D 00000           CON(5)  =DOSRECV
+   54 00072 00000           CON(5)  =DROP
    55 00077 00000           CON(5)  =DROP
-   56 0007C 00000           CON(5)  =DROP
-   57               * File  tests.s 18
-   58
-   59               * File  tests.s 19
-   60 00081 00000           CON(5)  =BEGIN
-   61               * File  tests.s 20
-   62 00086 00000           CON(5)  =%1
-   63 0008B 00000           CON(5)  =DOSRECV
-   64 00090 00000           CON(5)  =DROP
-   65               * File  tests.s 21
-   66 00095 00000           CON(5)  =DOBINT
-   67 0009A 10000           CON(5)  1
-   68               * File  tests.s 22
-   69 0009F 00000           CON(5)  =SUB$1#
-   70               * File  tests.s 23
-   71 000A4 00000           CON(5)  ='
-   72 000A9 00000           CON(5)  =DOIDNT
-   73 000AE 50              CON(2)  5
-   74 000B0 4427966         NIBASC  \Drive\
+   56               * File  tests.s 18
+   57 0007C 00000           CON(5)  =BEGIN
+   58               * File  tests.s 19
+   59 00081 00000           CON(5)  =%1
+   60 00086 00000           CON(5)  =DOSRECV
+   61 0008B 00000           CON(5)  =DROP
+   62               * File  tests.s 20
+   63
+   64               * File  tests.s 21
+   65 00090 00000           CON(5)  =CAR$
+   66               * File  tests.s 22
+   67 00095 00000           CON(5)  =CHR>#
+   68               * File  tests.s 23
+   69 0009A 00000           CON(5)  ='
+   70 0009F 00000           CON(5)  =DOIDNT
+   71 000A4 50              CON(2)  5
+   72 000A6 4427966         NIBASC  \Drive\
             756
-   75               * File  tests.s 24
-   76 000BA 00000           CON(5)  =STO
-   77               * File  tests.s 25
-   78
-   79               * File  tests.s 26
-   80 000BF 00000           CON(5)  =DOBINT
-   81 000C4 13000           CON(5)  #31
-   82               * File  tests.s 27
-   83 000C9 00000           CON(5)  =DOIDNT
-   84 000CE 50              CON(2)  5
-   85 000D0 4427966         NIBASC  \Drive\
+   73               * File  tests.s 24
+   74 000B0 00000           CON(5)  =STO
+   75               * File  tests.s 25
+   76
+   77               * File  tests.s 26
+   78 000B5 00000           CON(5)  =DOBINT
+   79 000BA 13000           CON(5)  #31
+   80               * File  tests.s 27
+   81 000BF 00000           CON(5)  =DOIDNT
+   82 000C4 50              CON(2)  5
+   83 000C6 4427966         NIBASC  \Drive\
             756
-   86               * File  tests.s 28
-   87 000DA 00000           CON(5)  =#=
-   88               * File  tests.s 29
-   89 000DF 00000           CON(5)  =UNTIL
-   90               * File  tests.s 30
-   91 000E4 00000           CON(5)  =SEMI
-Saturn Assembler                                       Sat Feb 13 21:13:08 2021
+   84               * File  tests.s 28
+   85 000D0 00000           CON(5)  =#=
+   86               * File  tests.s 29
+   87 000D5 00000           CON(5)  =UNTIL
+   88               * File  tests.s 30
+   89 000DA 00000           CON(5)  =SEMI
+Saturn Assembler                                       Sun Feb 14 20:57:51 2021
 V3.0.9 (04/15/2007)   Symbol Table                       tests.a        Page    2
 
- #=                                Ext                   -    87
- %1                                Ext                   -    62
- '                                 Ext                   -    71
- BEGIN                             Ext                   -    60
- ClrSysFlag                        Ext                   -    32
+ #=                                Ext                   -    85
+ %0                                Ext                   -    45
+ %1                                Ext                   -    59
+ '                                 Ext                   -    69
+ BEGIN                             Ext                   -    57
+ CAR$                              Ext                   -    65
+ CHR>#                             Ext                   -    67
+ ClrSysFlag                        Ext                   -    23
  DOBAUD                            Ext                   -    41
- DOBINT                            Ext                   -    45    66    80
- DOBUFLEN                          Ext                   -    52
+ DOBINT                            Ext                   -    78
+ DOBUFLEN                          Ext                   -    51
  DOCOL                             Ext                   -    16
- DOIDNT                            Ext                   -    72    83
- DOPARITY                          Ext                   -    48
+ DOIDNT                            Ext                   -    70    81
+ DOPARITY                          Ext                   -    47
  DOREAL                            Ext                   -    18    27    36
- DOSRECV                           Ext                   -    54    63
- DROP                              Ext                   -    53    55    56
-                                          64
+ DOSRECV                           Ext                   -    53    60
+ DROP                              Ext                   -    52    54    55
+                                          61
 =RomId                             Abs     512 #00000200 -     6
- SEMI                              Ext                   -    91
- STO                               Ext                   -    76
- SUB$1#                            Ext                   -    69
- SetSysFlag                        Ext                   -    23
- UNTIL                             Ext                   -    89
+ SEMI                              Ext                   -    89
+ STO                               Ext                   -    74
+ SetSysFlag                        Ext                   -    32
+ UNTIL                             Ext                   -    87
 =xtst                              Rel       6 #00000006 -    14
  ~xtst                             Ext                   -    13
-Saturn Assembler                                       Sat Feb 13 21:13:08 2021
+Saturn Assembler                                       Sun Feb 14 20:57:51 2021
 V3.0.9 (04/15/2007)   Statistics                         tests.a        Page    3
 
 Input Parameters

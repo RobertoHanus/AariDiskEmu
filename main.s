@@ -33,7 +33,7 @@ xNAME main
 			
 			
 			#2
-			GETSTRBIN
+			xSTRBIN
 			
 		
 			#53

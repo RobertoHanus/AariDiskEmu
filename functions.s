@@ -1,10 +1,11 @@
 RPL 
 INCLUDE AtariDiskEmu.h
 
-xNAME GETSRTBIN
+xNAME STRBIN
 ::
 			DUP
 			SUB$
+			CAR$
 			CHR>#
 ;
 

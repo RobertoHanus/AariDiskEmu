@@ -11,6 +11,6 @@ xROMID 200
 EXTERNAL xmain
 
 * entries of the file functions.s
-EXTERNAL xGETSRTBIN
+EXTERNAL xSTRBIN
 EXTERNAL xGETSEC
 

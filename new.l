@@ -1,4 +1,4 @@
-Saturn Assembler                                       Sun Feb 14 20:57:51 2021
+Saturn Assembler                                       Mon Feb 15 00:06:14 2021
 V3.0.9 (04/15/2007)                                      new.a          Page    1
 
     1               * File  new.s   1
@@ -192,197 +192,173 @@ V3.0.9 (04/15/2007)                                      new.a          Page    
   176               * File  new.s   64
   177
   178               * File  new.s   65
-  179
-  180               * File  new.s   66
-  181 001F3 00000           CON(5)  =DOBINT
-  182 001F8 25000           CON(5)  #52
-  183               * File  new.s   67
-  184 001FD 00000           CON(5)  =DOIDNT
-  185 00202 70              CON(2)  7
-  186 00204 34F6D6D         NIBASC  \Command\
+  179 001F3 00000           CON(5)  =DOBINT
+  180 001F8 25000           CON(5)  #52
+  181               * File  new.s   66
+  182 001FD 00000           CON(5)  =DOIDNT
+  183 00202 70              CON(2)  7
+  184 00204 34F6D6D         NIBASC  \Command\
             616E646
+  185               * File  new.s   67
+  186 00212 00000           CON(5)  =#=
   187               * File  new.s   68
-  188 00212 00000           CON(5)  =#=
+  188 00217 00000           CON(5)  =IT
   189               * File  new.s   69
-  190 00217 00000           CON(5)  =IT
+  190 0021C 00000           CON(5)  =DOCOL
   191               * File  new.s   70
-  192 0021C 00000           CON(5)  =DOCOL
+  192
   193               * File  new.s   71
-  194 00221 00000           CON(5)  =DOCSTR
-  195 00226 F1000           CON(5)  31
-  196 0022B 34F6D6D         NIBASC  \Command 52!!!\
-            616E646
-            025323121212
-
-  197 00245 00000           CON(5)  =SWAP
-  198               * File  new.s   72
-  199
-  200               * File  new.s   73
-  201 0024A 00000           CON(5)  =DOCSTR
-  202 0024F 70000           CON(5)  7
-  203 00254 14              NIBASC  \A\
-  204               * File  new.s   74
-  205 00256 00000           CON(5)  =DOXMIT_
-  206 0025B 00000           CON(5)  =DROP
-  207               * File  new.s   75
-  208
-  209               * File  new.s   76
-  210
-  211               * File  new.s   77
-  212
-  213               * File  new.s   78
-  214 00260 00000           CON(5)  =DUP
-  215               * File  new.s   79
-  216
-  217               * File  new.s   80
-  218 00265 00000           CON(5)  =DOCSTR
-  219 0026A 70000           CON(5)  7
-  220 0026F 34              NIBASC  \C\
-  221 00271 00000           CON(5)  =SWAP
-  222               * File  new.s   81
-  223
-  224               * File  new.s   82
-  225 00276 00000           CON(5)  =DOIDNT
-  226 0027B 90              CON(2)  9
-  227 0027D 3556364         NIBASC  \SectorLow\
+  194 00221 00000           CON(5)  =DUP
+  195               * File  new.s   72
+  196
+  197               * File  new.s   73
+  198 00226 00000           CON(5)  =DOCSTR
+  199 0022B 70000           CON(5)  7
+  200 00230 14              NIBASC  \A\
+  201               * File  new.s   74
+  202 00232 00000           CON(5)  =DOXMIT_
+  203 00237 00000           CON(5)  =DROP
+  204               * File  new.s   75
+  205
+  206               * File  new.s   76
+  207 0023C 00000           CON(5)  =DOIDNT
+  208 00241 90              CON(2)  9
+  209 00243 3556364         NIBASC  \SectorLow\
             7F627C4
             F677
-  228               * File  new.s   83
-  229 0028F 00000           CON(5)  =DOIDNT
-  230 00294 A0              CON(2)  10
-  231 00296 3556364         NIBASC  \SectorHigh\
+  210               * File  new.s   77
+  211 00255 00000           CON(5)  =DOIDNT
+  212 0025A A0              CON(2)  10
+  213 0025C 3556364         NIBASC  \SectorHigh\
             7F62784
             967686
-  232               * File  new.s   84
-  233 002AA 00000           CON(5)  =DOBINT
-  234 002AF 00100           CON(5)  #100
-  235               * File  new.s   85
-  236 002B4 00000           CON(5)  =#*
-  237               * File  new.s   86
-  238 002B9 00000           CON(5)  =#+
-  239               * File  new.s   87
-  240 002BE 00000           CON(5)  =DOROMP
-  241 002C3 000000          CON(6)  =~xGETSEC
-  242               * File  new.s   88
+  214               * File  new.s   78
+  215 00270 00000           CON(5)  =DOBINT
+  216 00275 00100           CON(5)  #100
+  217               * File  new.s   79
+  218 0027A 00000           CON(5)  =#*
+  219               * File  new.s   80
+  220 0027F 00000           CON(5)  =#+
+  221               * File  new.s   81
+  222 00284 00000           CON(5)  =DOROMP
+  223 00289 000000          CON(6)  =~xGETSEC
+  224               * File  new.s   82
+  225
+  226               * File  new.s   83
+  227 0028F 00000           CON(5)  =DOCSTR
+  228 00294 70000           CON(5)  7
+  229 00299 34              NIBASC  \C\
+  230 0029B 00000           CON(5)  =SWAP
+  231               * File  new.s   84
+  232 002A0 00000           CON(5)  =&$
+  233               * File  new.s   85
+  234
+  235               * File  new.s   86
+  236 002A5 00000           CON(5)  =DOXMIT_
+  237 002AA 00000           CON(5)  =DROP
+  238               * File  new.s   87
+  239 002AF 00000           CON(5)  =SEMI
+  240               * File  new.s   88
+  241
+  242               * File  new.s   89
   243
-  244               * File  new.s   89
-  245 002C9 00000           CON(5)  =DOXMIT_
-  246 002CE 00000           CON(5)  =DROP
-  247               * File  new.s   90
-  248
-  249               * File  new.s   91
-  250 002D3 00000           CON(5)  =SEMI
+  244               * File  new.s   90
+  245 002B4 00000           CON(5)  =DOBINT
+  246 002B9 35000           CON(5)  #53
+  247               * File  new.s   91
+  248 002BE 00000           CON(5)  =DOIDNT
+  249 002C3 70              CON(2)  7
+  250 002C5 34F6D6D         NIBASC  \Command\
+            616E646
   251               * File  new.s   92
-  252
+  252 002D3 00000           CON(5)  =#=
   253               * File  new.s   93
-  254
+  254 002D8 00000           CON(5)  =IT
   255               * File  new.s   94
-  256 002D8 00000           CON(5)  =DOBINT
-  257 002DD 35000           CON(5)  #53
-  258               * File  new.s   95
-  259 002E2 00000           CON(5)  =DOIDNT
-  260 002E7 70              CON(2)  7
-  261 002E9 34F6D6D         NIBASC  \Command\
-            616E646
-  262               * File  new.s   96
-  263 002F7 00000           CON(5)  =#=
+  256 002DD 00000           CON(5)  =DOCOL
+  257               * File  new.s   95
+  258 002E2 00000           CON(5)  =DOCSTR
+  259 002E7 70000           CON(5)  7
+  260 002EC 14              NIBASC  \A\
+  261               * File  new.s   96
+  262 002EE 00000           CON(5)  =DOXMIT_
+  263 002F3 00000           CON(5)  =DROP
   264               * File  new.s   97
-  265 002FC 00000           CON(5)  =IT
+  265
   266               * File  new.s   98
-  267 00301 00000           CON(5)  =DOCOL
-  268               * File  new.s   99
-  269 00306 00000           CON(5)  =DOCSTR
-  270 0030B F1000           CON(5)  31
-  271 00310 34F6D6D         NIBASC  \Command 53!!!\
-            616E646
-            025333121212
-
-  272 0032A 00000           CON(5)  =SWAP
-  273               * File  new.s   100
-  274
-  275               * File  new.s   101
-  276 0032F 00000           CON(5)  =DOCSTR
-  277 00334 70000           CON(5)  7
-  278 00339 14              NIBASC  \A\
-  279               * File  new.s   102
-  280 0033B 00000           CON(5)  =DOXMIT_
-  281 00340 00000           CON(5)  =DROP
-  282               * File  new.s   103
-  283
-  284               * File  new.s   104
-  285 00345 00000           CON(5)  =DOCSTR
-  286 0034A 70000           CON(5)  7
-  287 0034F 34              NIBASC  \C\
-  288               * File  new.s   105
-  289 00351 00000           CON(5)  =DOBINT
-  290 00356 08000           CON(5)  #80
-  291 0035B 00000           CON(5)  =#>CHR
-  292 00360 00000           CON(5)  =CHR>$
-  293               * File  new.s   106
-  294 00365 00000           CON(5)  =DOBINT
-  295 0036A FF000           CON(5)  #FF
-  296 0036F 00000           CON(5)  =#>CHR
-  297 00374 00000           CON(5)  =CHR>$
-  298               * File  new.s   107
-  299 00379 00000           CON(5)  =DOBINT
-  300 0037E 0E000           CON(5)  #E0
-  301 00383 00000           CON(5)  =#>CHR
-  302 00388 00000           CON(5)  =CHR>$
-  303               * File  new.s   108
-  304 0038D 00000           CON(5)  =DOBINT
-  305 00392 00000           CON(5)  #0
-  306 00397 00000           CON(5)  =#>CHR
-  307 0039C 00000           CON(5)  =CHR>$
-  308               * File  new.s   109
-  309 003A1 00000           CON(5)  =DOBINT
-  310 003A6 16000           CON(5)  #61
-  311 003AB 00000           CON(5)  =#>CHR
-  312 003B0 00000           CON(5)  =CHR>$
-  313               * File  new.s   110
-  314 003B5 00000           CON(5)  =&$
-  315 003BA 00000           CON(5)  =&$
-  316 003BF 00000           CON(5)  =&$
-  317 003C4 00000           CON(5)  =&$
-  318 003C9 00000           CON(5)  =&$
-  319               * File  new.s   111
-  320 003CE 00000           CON(5)  =DOXMIT_
-  321 003D3 00000           CON(5)  =DROP
-  322               * File  new.s   112
-  323 003D8 00000           CON(5)  =SEMI
-  324               * File  new.s   113
-  325
-  326               * File  new.s   114
-  327 003DD 00000           CON(5)  =DOIDNT
-  328 003E2 70              CON(2)  7
-  329 003E4 34F657E         NIBASC  \Counter\
+  267 002F8 00000           CON(5)  =DOCSTR
+  268 002FD 70000           CON(5)  7
+  269 00302 34              NIBASC  \C\
+  270               * File  new.s   99
+  271 00304 00000           CON(5)  =DOBINT
+  272 00309 08000           CON(5)  #80
+  273 0030E 00000           CON(5)  =#>CHR
+  274 00313 00000           CON(5)  =CHR>$
+  275               * File  new.s   100
+  276 00318 00000           CON(5)  =DOBINT
+  277 0031D FF000           CON(5)  #FF
+  278 00322 00000           CON(5)  =#>CHR
+  279 00327 00000           CON(5)  =CHR>$
+  280               * File  new.s   101
+  281 0032C 00000           CON(5)  =DOBINT
+  282 00331 0E000           CON(5)  #E0
+  283 00336 00000           CON(5)  =#>CHR
+  284 0033B 00000           CON(5)  =CHR>$
+  285               * File  new.s   102
+  286 00340 00000           CON(5)  =DOBINT
+  287 00345 00000           CON(5)  #0
+  288 0034A 00000           CON(5)  =#>CHR
+  289 0034F 00000           CON(5)  =CHR>$
+  290               * File  new.s   103
+  291 00354 00000           CON(5)  =DOBINT
+  292 00359 16000           CON(5)  #61
+  293 0035E 00000           CON(5)  =#>CHR
+  294 00363 00000           CON(5)  =CHR>$
+  295               * File  new.s   104
+  296 00368 00000           CON(5)  =&$
+  297 0036D 00000           CON(5)  =&$
+  298 00372 00000           CON(5)  =&$
+  299 00377 00000           CON(5)  =&$
+  300 0037C 00000           CON(5)  =&$
+  301               * File  new.s   105
+  302 00381 00000           CON(5)  =DOXMIT_
+  303 00386 00000           CON(5)  =DROP
+  304               * File  new.s   106
+  305 0038B 00000           CON(5)  =SEMI
+  306               * File  new.s   107
+  307
+  308               * File  new.s   108
+  309 00390 00000           CON(5)  =DOIDNT
+  310 00395 70              CON(2)  7
+  311 00397 34F657E         NIBASC  \Counter\
             6475627
-  330               * File  new.s   115
-  331 003F2 00000           CON(5)  =DOBINT
-  332 003F7 30000           CON(5)  #3
-  333               * File  new.s   116
-  334 003FC 00000           CON(5)  =#=
-  335               * File  new.s   117
-  336 00401 00000           CON(5)  =UNTIL
-  337               * File  new.s   118
-  338 00406 00000           CON(5)  =SEMI
-  339               * File  new.s   119
-  340
-  341               * File  new.s   120
-  342
-Saturn Assembler                                       Sun Feb 14 20:57:51 2021
+  312               * File  new.s   109
+  313 003A5 00000           CON(5)  =DOBINT
+  314 003AA 50000           CON(5)  #5
+  315               * File  new.s   110
+  316 003AF 00000           CON(5)  =#=
+  317               * File  new.s   111
+  318 003B4 00000           CON(5)  =UNTIL
+  319               * File  new.s   112
+  320 003B9 00000           CON(5)  =SEMI
+  321               * File  new.s   113
+  322
+  323               * File  new.s   114
+  324
+Saturn Assembler                                       Mon Feb 15 00:06:14 2021
 V3.0.9 (04/15/2007)   Symbol Table                       new.a          Page    2
 
- #*                                Ext                   -   236
- #+                                Ext                   -    81   238
- #=                                Ext                   -   120   188   263
-                                         334
- #>CHR                             Ext                   -   291   296   301
-                                         306   311
+ #*                                Ext                   -   218
+ #+                                Ext                   -    81   220
+ #=                                Ext                   -   120   186   252
+                                         316
+ #>CHR                             Ext                   -   273   278   283
+                                         288   293
  %0                                Ext                   -    48
  %1                                Ext                   -    94
  %4                                Ext                   -   126
- &$                                Ext                   -   314   315   316
-                                         317   318
+ &$                                Ext                   -   232   296   297
+                                         298   299   300
  '                                 Ext                   -    65    83   104
                                          138   155   170
  BEGIN                             Ext                   -    72    92
@@ -391,41 +367,41 @@ V3.0.9 (04/15/2007)   Symbol Table                       new.a          Page    
  CDR$                              Ext                   -   145   162
  CHR>#                             Ext                   -   102   136   153
                                          168
- CHR>$                             Ext                   -   292   297   302
-                                         307   312
+ CHR>$                             Ext                   -   274   279   284
+                                         289   294
  ClrSysFlag                        Ext                   -    26
  DOBAUD                            Ext                   -    44
  DOBINT                            Ext                   -    62    78   113
-                                         181   233   256   289   294   299   304
-                                         309   331
+                                         179   215   245   271   276   281   286
+                                         291   313
  DOBUFLEN                          Ext                   -    54
- DOCOL                             Ext                   -    19   192   267
- DOCSTR                            Ext                   -   194   201   218
-                                         269   276   285
+ DOCOL                             Ext                   -    19   190   256
+ DOCSTR                            Ext                   -   198   227   258
+                                         267
  DOIDNT                            Ext                   -    66    74    84
-                                         105   116   139   156   171   184   225
-                                         229   259   327
+                                         105   116   139   156   171   182   207
+                                         211   248   309
  DOPARITY                          Ext                   -    50
  DOREAL                            Ext                   -    21    30    39
- DOROMP                            Ext                   -   240
+ DOROMP                            Ext                   -   222
  DOSRECV                           Ext                   -    56    95   127
- DOXMIT_                           Ext                   -   205   245   280
-                                         320
+ DOXMIT_                           Ext                   -   202   236   262
+                                         302
  DROP                              Ext                   -    55    57    58
-                                          96   128   206   246   281   321
- DUP                               Ext                   -   132   149   214
- IT                                Ext                   -   190   265
+                                          96   128   203   237   263   303
+ DUP                               Ext                   -   132   149   194
+ IT                                Ext                   -   188   254
 =RomId                             Abs     512 #00000200 -     8
- SEMI                              Ext                   -   250   323   338
+ SEMI                              Ext                   -   239   305   320
  STO                               Ext                   -    70    88   109
                                          143   160   175
- SWAP                              Ext                   -   197   221   272
+ SWAP                              Ext                   -   230
  SetSysFlag                        Ext                   -    35
- UNTIL                             Ext                   -   122   336
+ UNTIL                             Ext                   -   122   318
 =xok                               Rel       6 #00000006 -    17
- ~xGETSEC                          Ext                   -   241
+ ~xGETSEC                          Ext                   -   223
  ~xok                              Ext                   -    16
-Saturn Assembler                                       Sun Feb 14 20:57:51 2021
+Saturn Assembler                                       Mon Feb 15 00:06:14 2021
 V3.0.9 (04/15/2007)   Statistics                         new.a          Page    3
 
 Input Parameters

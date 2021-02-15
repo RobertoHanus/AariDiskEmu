@@ -62,22 +62,16 @@ BEGIN
 			' ID SectorHigh
 			STO
 				
-			
 		 #52
 		 ID Command
 		 #=
 			IT
-			::
-						"Command 52!!!" SWAP
-						
-						"A"
-			   DOXMIT_ DROP
-			   
-			   
+			::						
 			
 						DUP
-						
-						"C" SWAP
+			
+						"A"
+			   DOXMIT_ DROP
 						
 						ID SectorLow
 						ID SectorHigh
@@ -86,8 +80,10 @@ BEGIN
 						#+
 						xGETSEC
 						
+						"C" SWAP
+						&$
+						
 						DOXMIT_ DROP
-				
 			;
 			
 			
@@ -95,9 +91,7 @@ BEGIN
 			ID Command
 			#=
 			IT
-			::
-						"Command 53!!!" SWAP
-			
+			::			
 			   "A"
 			   DOXMIT_ DROP
 			   
@@ -112,7 +106,7 @@ BEGIN
 			;
 		
 			ID Counter
-			#3
+			#5
 			#=
 			UNTIL
 ;

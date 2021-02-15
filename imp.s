@@ -67,6 +67,18 @@ xNAME STR2BINT
 
 xNAME GETSEC
 ::
+			DUP
+			#2
+			#=
+			IT
+			::
+						SWAP
+			   #92
+			   #112
+						SUB$
+			;
+
+
 			#1
 			#=
 			IT
@@ -75,4 +87,6 @@ xNAME GETSEC
 			   #91
 						SUB$
 			;
-;
+	;
+
+

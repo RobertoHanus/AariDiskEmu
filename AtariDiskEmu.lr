@@ -3,134 +3,138 @@ Saturn Loader, Ver. version 3.0.9, 08/03/10
 
 Output Module:
 Module=AtariDiskEmu.o
-  Start=00000 End=0083D Length=0083E   Symbols=  66 References= 248
-  Date=Sun Feb 14 20:57:51 2021   Title=
+  Start=00000 End=00831 Length=00832   Symbols=  66 References= 255
+  Date=Mon Feb 15 00:06:14 2021   Title=
 
 
 Source modules:
 Module=_head.o
   Start=00000 End=0002C Length=0002D
-  Date=Sun Feb 14 20:57:51 2021   Title=                                        Sun Feb 14 20:57:51 2021
+  Date=Mon Feb 15 00:06:14 2021   Title=                                        Mon Feb 15 00:06:14 2021
 
 Module=_table.o
   Start=0002D End=00133 Length=00107
-  Date=Sun Feb 14 20:57:51 2021   Title=                                        Sun Feb 14 20:57:51 2021
+  Date=Mon Feb 15 00:06:14 2021   Title=                                        Mon Feb 15 00:06:14 2021
 
 Module=new.o
-  Start=00134 End=0053E Length=0040B
-  Date=Sun Feb 14 20:57:51 2021   Title=                                        Sun Feb 14 20:57:51 2021
+  Start=00134 End=004F1 Length=003BE
+  Date=Mon Feb 15 00:06:14 2021   Title=                                        Mon Feb 15 00:06:14 2021
 
 Module=tests.o
-  Start=0053F End=0061D Length=000DF
-  Date=Sun Feb 14 20:57:51 2021   Title=                                        Sun Feb 14 20:57:51 2021
+  Start=004F2 End=005D0 Length=000DF
+  Date=Mon Feb 15 00:06:14 2021   Title=                                        Mon Feb 15 00:06:14 2021
 
 Module=imp.o
-  Start=0061E End=0081B Length=001FE
-  Date=Sun Feb 14 20:57:51 2021   Title=                                        Sun Feb 14 20:57:51 2021
+  Start=005D1 End=0080F Length=0023F
+  Date=Mon Feb 15 00:06:14 2021   Title=                                        Mon Feb 15 00:06:14 2021
 
 Module=_config.o
-  Start=0081C End=00839 Length=0001E
-  Date=Sun Feb 14 20:57:51 2021   Title=                                        Sun Feb 14 20:57:51 2021
+  Start=00810 End=0082D Length=0001E
+  Date=Mon Feb 15 00:06:14 2021   Title=                                        Mon Feb 15 00:06:14 2021
 
 Module=_end.o
-  Start=0083A End=0083D Length=00004
-  Date=Sun Feb 14 20:57:51 2021   Title=                                        Sun Feb 14 20:57:51 2021
+  Start=0082E End=00831 Length=00004
+  Date=Mon Feb 15 00:06:14 2021   Title=                                        Mon Feb 15 00:06:14 2021
 
 Saturn Cross Reference Listing
 
-#*                               *       - 003E8
-#+                               *       - 001FD 003ED 00656 00692 006FB 00786
-#-                               *       - 00683
-#<>                              *       - 00638
-#=                               *       - 00275 00346 0042B 00530 0060F 007EA
-#>                               *       - 0066A
-#>CHR                            *       - 0048F 004A3 004B7 004CB 004DF
+#*                               *       - 003AE
+#+                               *       - 001FD 003B3 00609 00645 006AE 00739
+#-                               *       - 00636
+#<>                              *       - 005EB
+#=                               *       - 00275 00346 00407 004E3 005C2 007A2
+                                 + 007DE
+#>                               *       - 0061D
+#>CHR                            *       - 00442 00456 0046A 0047E 00492
 
-%0                               *       - 0018D 00598
-%1                               *       - 00226 005C0
+%0                               *       - 0018D 0054B
+%1                               *       - 00226 00573
 %4                               *       - 0027F
 
-&$                               *       - 004E9 004EE 004F3 004F8 004FD
+&$                               *       - 003D4 0049C 004A1 004A6 004AB 004B0
 
 '                                *       - 001BA 00202 0023F 0029D 002D0 00302
-                                 + 005D9 006D4 0075F
+                                 + 0058C 00687 00712
 
-BEGIN                            *       - 001D9 00221 005BB
+BEGIN                            *       - 001D9 00221 0056E
 
-CAR$                             *       - 00235 00293 002C6 002F8 005CF 00714
-                                 + 0079F
-CDR$                             *       - 002BC 002F3 0071E 007AE
-CHR>#                            *       - 0023A 00298 002CB 002FD 005D4 007A4
-CHR>$                            *       - 00494 004A8 004BC 004D0 004E4
-CONFIG                           * 0081C - 00028
-ClrSysFlag                       *       - 00154 0055F
+CAR$                             *       - 00235 00293 002C6 002F8 00582 006C7
+                                 + 00752
+CDR$                             *       - 002BC 002F3 006D1 00761
+CHR>#                            *       - 0023A 00298 002CB 002FD 00587 00757
+CHR>$                            *       - 00447 0045B 0046F 00483 00497
+CONFIG                           * 00810 - 00028
+ClrSysFlag                       *       - 00154 00512
 
-DO                               *       - 00651 0070A 00795
-DOBAUD                           *       - 00188 00593
-DOBINT                           *       - 001B0 001F3 0025A 00327 003DE 0040C
-                                 + 00485 00499 004AD 004C1 004D5 00526 005F4
-                                 + 0062E 00647 00660 00679 00688 006F1 00700
-                                 + 0077C 0078B 007E0 007F9 00803 00826
-DOBUFLEN                         *       - 00197 005A2
-DOCOL                            *       - 0013A 00350 00435 00545 00624 00642
-                                 + 00674 006A6 006C0 0074B 007DB 007F4 0081C
-DOCSTR                           *       - 00355 0037E 00399 0043A 00463 00479
+DO                               *       - 00604 006BD 00748
+DOBAUD                           *       - 00188 00546
+DOBINT                           *       - 001B0 001F3 0025A 00327 003A4 003E8
+                                 + 00438 0044C 00460 00474 00488 004D9 005A7
+                                 + 005E1 005FA 00613 0062C 0063B 006A4 006B3
+                                 + 0072F 0073E 00798 007B6 007C0 007D4 007ED
+                                 + 007F7 0081A
+DOBUFLEN                         *       - 00197 00555
+DOCOL                            *       - 0013A 00350 00411 004F8 005D7 005F5
+                                 + 00627 00659 00673 006FE 0078E 007AC 007E8
+                                 + 00810
+DOCSTR                           *       - 0035A 003C3 00416 0042C
 DOHSTR                           *       - 0002D 0010C
 DOIDNT                           *       - 001BF 001DE 00207 00244 00264 002A2
-                                 + 002D5 00307 00331 003AA 003C3 00416 00511
-                                 + 005DE 005FE 006D9 0072D 00764 007BD
+                                 + 002D5 00307 00331 00370 00389 003F2 004C4
+                                 + 00591 005B1 0068C 006E0 00717 00770
 DOLIB                            *       - 00000
-DOPARITY                         *       - 00192 0059D
-DOREAL                           *       - 0013F 00159 00173 0054A 00564 0057E
-DOROMP                           *       - 003F2
-DOSRECV                          *       - 001A1 0022B 00284 005AC 005C5
-DOXMIT_                          *       - 0038A 003FD 0046F 00502
-DROP                             *       - 0019C 001A6 001AB 00230 00289 0038F
-                                 + 00402 00474 00507 005A7 005B1 005B6 005CA
-                                 + 006AB 00728 007B8
-DUP                              *       - 0028E 002C1 00394 00629 0065B 006C5
-                                 + 006CF 0070F 00750 0075A 0079A
+DOPARITY                         *       - 00192 00550
+DOREAL                           *       - 0013F 00159 00173 004FD 00517 00531
+DOROMP                           *       - 003B8
+DOSRECV                          *       - 001A1 0022B 00284 0055F 00578
+DOXMIT_                          *       - 00366 003D9 00422 004B5
+DROP                             *       - 0019C 001A6 001AB 00230 00289 0036B
+                                 + 003DE 00427 004BA 0055A 00564 00569 0057D
+                                 + 0065E 006DB 0076B
+DUP                              *       - 0028E 002C1 00355 005DC 0060E 00678
+                                 + 00682 006C2 00703 0070D 0074D 00793
 
-HOMEDIR                          *       - 00821
+HOMEDIR                          *       - 00815
 HasH200                          * 0002D - 00019
 
-IT                               *       - 0034B 00430 0066F 007EF
-ITE                              *       - 0063D
+IT                               *       - 0034B 0040C 00622 007A7 007E3
+ITE                              *       - 005F0
 
-LEN$                             *       - 006CA 00755
+LEN$                             *       - 0067D 00708
 LIB200                           * 00005 -
-LOOP                             *       - 0069C 00723 007B3
+LOOP                             *       - 0064F 006D6 00766
 LinK200                          * 0010C - 00023
 
 ROMID200                         = 00200 -
 RomId                            = 00200 -
 
-SEMI                             *       - 00407 0050C 0053A 00619 00697 006A1
-                                 + 006B0 006B5 00740 007D0 00812 00817 00835
+SEMI                             *       - 003E3 004BF 004ED 005CC 0064A 00654
+                                 + 00663 00668 006F3 00783 007CF 00806 0080B
+                                 + 00829
 STO                              *       - 001D4 0021C 00255 002B7 002EE 00322
-                                 + 005EF 006EC 00777
-SUB$                             *       - 0080D
-SWAP                             *       - 00379 003A5 0045E 00719 007A9
+                                 + 005A2 0069F 0072A
+SUB$                             *       - 007CA 00801
+SWAP                             *       - 003CF 006CC 0075C 007B1
 SYS200                           * 00016 -
-SYSEND200                        * 0083E - 00005
-SetSysFlag                       *       - 0016E 00579
+SYSEND200                        * 00832 - 00005
+SetSysFlag                       *       - 0016E 0052C
 
-UNTIL                            *       - 0027A 00535 00614
+UNTIL                            *       - 0027A 004E8 005C7
 
-XEQSETLIB                        *       - 00830
+XEQSETLIB                        *       - 00824
 
-xGETSEC                          * 007DB - 0012F
-xSCHKSUM                         * 00624 - 00120
-xSTR2BINT                        * 0074B - 0012A
-xSTR2CHRS                        * 006C0 - 00125
+xGETSEC                          * 0078E - 0012F
+xSCHKSUM                         * 005D7 - 00120
+xSTR2BINT                        * 006FE - 0012A
+xSTR2CHRS                        * 00673 - 00125
 xok                              * 0013A - 00116
-xtst                             * 00545 - 0011B
+xtst                             * 004F8 - 0011B
 
-~xGETSEC                         = 05200 - 003F7 007D5
-~xSCHKSUM                        = 02200 - 0061E
-~xSTR2BINT                       = 04200 - 00745
-~xSTR2CHRS                       = 03200 - 006BA
+~xGETSEC                         = 05200 - 003BD 00788
+~xSCHKSUM                        = 02200 - 005D1
+~xSTR2BINT                       = 04200 - 006F8
+~xSTR2CHRS                       = 03200 - 0066D
 ~xok                             = 00200 - 00134
-~xtst                            = 01200 - 0053F
+~xtst                            = 01200 - 004F2
 
 /SLOAD:  End of Saturn Loader Execution

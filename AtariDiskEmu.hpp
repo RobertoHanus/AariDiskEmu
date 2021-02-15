@@ -9,7 +9,7 @@ UseDefaultEntryList=1
 WarnRamChanges=1
 LoadOnly=0
 EMUVisible=1
-ProjectTab=0
+ProjectTab=1
 InformHeight=50
 EntryPointList=
 Title=test
@@ -31,6 +31,5 @@ file1=new.s
 file2=tests.s
 file3=imp.s
 [Edit]
-edit4=>new.s
-edit5=imp.s
-edit6=tests.s
+edit4=new.s
+edit5=>imp.s

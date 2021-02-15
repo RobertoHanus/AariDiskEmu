@@ -17,98 +17,45 @@ xNAME ok
 			DOPARITY
 			
    DOBUFLEN DROP DOSRECV DROP DROP
-   
-			#0
-			' ID Counter
-			STO
-BEGIN
-			ID Counter
-			#1
-			#+
-			' ID Counter
-			STO
+
+
 
 			BEGIN
-						%1 DOSRECV DROP
-						
-						CAR$
-						CHR>#
-						' ID Drive
-					 STO
-					
-					 #31
-						ID Drive
-						#=
+			DEPTH
+			NDROP
+			%5 DOSRECV DROP
+			DUP
+			CAR$
+			CHR>#
+			#31
+			#=
 			UNTIL
 			
-			%4 DOSRECV DROP
+			DUP
+			#2
+			#2
+			SUB$
+			CHR>#
 		
-			DUP		
-		 CAR$
-		 CHR>#
-			' ID Command
-			STO
-			CDR$
-			
-			DUP		
-		 CAR$
-		 CHR>#
-			' ID SectorLow
-			STO
-			CDR$
-			
-			CAR$
-		 CHR>#
-			' ID SectorHigh
-			STO
-				
-		 #52
-		 ID Command
-		 #=
-			IT
-			::						
-			
-						DUP
-			
-						"A"
-			   DOXMIT_ DROP
-						
-						ID SectorLow
-						ID SectorHigh
-						#100
-						#*
-						#+
-						xGETSEC
-						
-						"C" SWAP
-						&$
-						
-						DOXMIT_ DROP
-			;
-			
-			
 			#53
-			ID Command
 			#=
 			IT
 			::			
-			   "A"
-			   DOXMIT_ DROP
-			   
-			   "C"
+			
+			   "Command 53!!!"
+			
 						#80 #>CHR CHR>$
 						#FF #>CHR CHR>$
 						#E0 #>CHR CHR>$
 						#00 #>CHR CHR>$
 						#61 #>CHR CHR>$
-						&$ &$ &$ &$ &$
+						&$ &$ &$ &$
+						"AC"
+						SWAP
+						&$
 			   DOXMIT_ DROP	
 			;
-		
-			ID Counter
-			#5
-			#=
-			UNTIL
+	
 ;
 
 

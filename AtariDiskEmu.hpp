@@ -20,7 +20,7 @@ Romid=200
 Slot=0
 Emu48Ram=C:\Users\rober\Documents\Debug4x\Emu\default 48GX.e48
 Emu48Port2=C:\Program Files (x86)\Hewlett-Packard\Debug4x\Emu\default 48GX.bin
-Emu49Ram=test.e49
+Emu49Ram=C:\Program Files (x86)\Hewlett-Packard\Debug4x\Emu\test.e49
 FilePath=AtariDiskEmu.hp
 DirPath=
 RPL_INCLUDE=
@@ -31,5 +31,4 @@ file1=new.s
 file2=tests.s
 file3=imp.s
 [Edit]
-edit4=new.s
-edit5=>imp.s
+edit4=>new.s

@@ -1,4 +1,4 @@
-Saturn Assembler                                       Mon Feb 15 00:06:14 2021
+Saturn Assembler                                       Mon Feb 15 01:47:24 2021
 V3.0.9 (04/15/2007)                                      tests.a        Page    1
 
     1               * File  tests.s 1
@@ -95,7 +95,7 @@ V3.0.9 (04/15/2007)                                      tests.a        Page    
    87 000D5 00000           CON(5)  =UNTIL
    88               * File  tests.s 30
    89 000DA 00000           CON(5)  =SEMI
-Saturn Assembler                                       Mon Feb 15 00:06:14 2021
+Saturn Assembler                                       Mon Feb 15 01:47:24 2021
 V3.0.9 (04/15/2007)   Symbol Table                       tests.a        Page    2
 
  #=                                Ext                   -    85
@@ -123,7 +123,7 @@ V3.0.9 (04/15/2007)   Symbol Table                       tests.a        Page    
  UNTIL                             Ext                   -    87
 =xtst                              Rel       6 #00000006 -    14
  ~xtst                             Ext                   -    13
-Saturn Assembler                                       Mon Feb 15 00:06:14 2021
+Saturn Assembler                                       Mon Feb 15 01:47:24 2021
 V3.0.9 (04/15/2007)   Statistics                         tests.a        Page    3
 
 Input Parameters

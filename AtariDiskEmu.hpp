@@ -30,5 +30,5 @@ LRFiles=
 file1=main.s
 file2=functions.s
 [Edit]
-edit3=>main.s
-edit4=functions.s
+edit3=main.s
+edit4=>functions.s
